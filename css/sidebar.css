@@ -1,0 +1,38 @@
+/* IMPORTANT
+    This file drstically changes the layout of the entire site.
+    Adding this means you accept that you might have to rewrite all the custom CSS for that page.
+*/
+
+/* Make place for the sidebar */
+body {
+    margin-left: 200px;
+}
+
+div.sidebar {
+    height: 100%;
+    width: 200px;
+
+    position: fixed;
+    top: 40px;
+    left: 0;
+
+    background-color: var(--bg2);
+}
+
+div.sidebar h1 {
+    text-align: center;
+}
+
+div.sidebar ol {
+    font-size: 1.2em;
+}
+
+div.sidebar ol li {
+    padding-bottom: 4px;
+}
+
+div.sidebar ol li a {
+    text-decoration: none;
+    
+    color: var(--fg);
+}

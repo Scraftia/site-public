@@ -1,0 +1,10 @@
+div.content {
+    margin: 30px 20px;
+    padding: 20px;
+
+    background-color: var(--bg2);
+}
+
+div.content h1, h3 {
+    margin-top: 0;
+}

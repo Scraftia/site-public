@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="css/master.css">
+		<link rel="shortcut icon" href="icon.png" type="image/x-icon">
+	</head>
+	<body>
+		<!-- navbar -->
+		<?
+		include 'navbar.html';
+		?>
+
+		<!-- sidebar -->
+		<!-- Sidebar is only used in longer documents (think our wiki) -->
+
+		<!-- header -->
+		<div class="header">
+			<h1>Scraftia</h1>
+			<span class="subheader">We are Scraftia, a small community centered around playing minecraft together.</span>
+		</div>
+
+		<!-- content -->
+		<div class="content">
+			<h3>Skeleton file</h3>
+			<p>This is the Scraftia website skeleton file.<br>
+				It is used to both demonstrate layouts and act as a base file to build websites out of.<br>
+				To get started copy this file and start editing.</p>
+		</div>
+
+		<!-- footer -->
+		<div class="footer">
+			<div class="left">
+				<h4>Join our community.</h4>
+				<a>Discord</a>
+			</div>
+			<div class="center">
+				<h4>Contact us.</h4>
+			</div>
+			<div class="right">
+				<h4>Our team.</h4>
+				<span>Leader</span>
+				<ul>
+					<li>Sraft161</li>
+				</ul>
+				<span>Jr. Admin</span>
+				<ul>
+					<li>Brosie Pinkman</li>
+				</ul>
+				<span>Moderator</span>
+				<ul>
+					<li>Cacoツ</li>
+					<li>Codez</li>
+					<li>doggo</li>
+					<li>Wouter</li>
+				</ul>
+			</div>
+		</div>
+	</body>
+</html>
