@@ -1,0 +1,13 @@
+div.header {
+    padding: 20px 0 40px 0;
+
+    text-align: center;
+
+    background-color: var(--bg);
+}
+
+div.header h1 {
+    margin-bottom: 10px;
+
+    font-size: 4em;
+}

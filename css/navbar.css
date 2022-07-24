@@ -1,0 +1,57 @@
+@import "master.css";
+
+/* all selectors are prefixed with 'nav' to ensure we are targeting the navbar */
+
+nav {
+	height: 40px;
+	width: 100%;
+	overflow: hidden;
+
+	position: fixed;
+	top: 0;
+	left: 0;
+
+	display: flex;
+	flex-flow: row nowrap;
+
+	background-color: var(--bg-dark);
+	color: var(--fg)
+}
+
+nav a.navimage {
+	height: 100%;
+	margin-right: 10px;
+	padding-right: 7px;
+
+	text-decoration: none;
+
+	/*background-color: blue;*/
+	color: var(--fg);
+}
+
+nav a.navimage img {
+	height: 100%;
+
+	vertical-align: middle;
+}
+
+nav div.navbar{
+	height: 100%;
+}
+
+nav div.navbar a {
+	height: 100%;
+
+	margin: 0;
+	padding: 10px 3px 0 3px;
+
+	display: inline-block;
+
+	text-decoration: none;
+
+	color: var(--fg);
+}
+
+nav div.navbar a:hover {
+	background-color: var(--bg);
+}

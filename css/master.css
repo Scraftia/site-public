@@ -1,0 +1,24 @@
+@import "navbar.css";
+@import "header.css";
+@import "content.css";
+@import "footer.css";
+
+/* normalize the layout */
+body {
+    margin: 40px 0px 0px 0px;
+    padding: 0px;
+
+    font-family: sans-serif;
+
+    background-color: var(--bg);
+    color: var(--fg);
+}
+
+/* set coorscheme */
+:root {
+    --bg: #221f22;
+    --bg2: #2d2a2e;
+    --bg-dark: #19181a;
+
+    --fg: #f8f8f2;
+}
